@@ -1,12 +1,30 @@
-# React + Vite
+# TrackIt 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição do Projeto
 
-Currently, two official plugins are available:
+O TrackIt é uma aplicação web desenvolvida para ajudar os utilizadores a gerir e acompanhar os seus hábitos diários. Com ele, é possível criar novos hábitos, visualizar os hábitos do dia, marcá-los como concluídos e acompanhar o progresso da sequência. O objetivo é proporcionar uma ferramenta simples e eficaz para promover a consistência na criação de rotinas saudáveis. 💪
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+* **Registo e Login de Utilizadores:** Crie uma conta e aceda à aplicação de forma segura. 🔒
+* **Criação de Hábitos:** Adicione novos hábitos, definindo o nome e os dias da semana em que devem ser realizados. ✨
+* **Visualização de Hábitos:** Consulte a lista dos seus hábitos registados.
+* **Hábitos do Dia:** Veja os hábitos agendados para o dia atual e marque-os como concluídos. ✅
+* **Acompanhamento de Progresso:** Monitore a sequência atual e o recorde de dias consecutivos de cada hábito. 📈
+* **Navegação Intuitiva:** Interface simples para alternar entre as páginas de hábitos e a página do dia.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologias Utilizadas
+
+* **Frontend:**
+    * [React](https://react.dev/)
+    * [Vite](https://vitejs.dev/) (Ferramenta de Build)
+    * [Styled Components](https://styled-components.com/) (Estilização CSS-in-JS)
+    * [React Router DOM](https://reactrouter.com/en/main) (Gestão de Rotas)
+    * [Axios](https://axios-http.com/) (Requisições HTTP)
+    * [Day.js](https://day.js.org/) (Manipulação de Datas)
+    * [React Loader Spinner](https://www.npmjs.com/package/react-loader-spinner) (Componentes de Loading)
+* **API:**
+    * [Mock API TrackIt](https://mock-api.bootcamp.respondeai.com.br/api/v2/trackit/) (Backend de simulação)
+
+## Deploy do Projeto
+[https://trackit-gules.vercel.app/](https://trackit-gules.vercel.app/) 
